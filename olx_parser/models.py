@@ -834,46 +834,46 @@ class OfferLog(Base):
             return True
 
 
-# class UserOfferTracking(Base):
-#     __tablename__ = 'notifications'
-#
-#     id = Column(BigInteger, primary_key=True, autoincrement=True, nullable=False)
-#     user_id = Column(BigInteger, nullable=False)
-#     offer_id = Column(Integer, nullable=False)
-#     price_change = Column(Boolean, nullable=False, default=False)
-#     deleted = Column(Boolean, nullable=False, default=False)
-#     is_top = Column(Boolean, nullable=False, default=False)
-#     created_at = Column(TIMESTAMP, default=func.now(), nullable=True)
-#     updated_at = Column(TIMESTAMP, default=func.now(), onupdate=func.now(), nullable=True)
-#
-#     @classmethod
-#     def get_all_tracking_records(cls) -> dict:
-#         response = {}
-#         with db_session() as session:
-#             rows = session.query(cls).all()
-#
-#             for row in rows:
-#                 offer_id = row.offer_id
-#
-#                 if offer_id not in response:
-#                     response[offer_id] = set()
-#
-#                 # Додаємо стани, якщо вони True
-#                 if row.deleted:
-#                     response[offer_id].add('deleted')
-#                 if row.is_top:
-#                     response[offer_id].add('is_top')
-#                 if row.price_change:
-#                     response[offer_id].add('price_change')
-#
-#             # Перетворюємо set на list у кінцевому результаті
-#             for offer_id in response:
-#                 try:
-#                     response[offer_id] = list(response[offer_id])
-#                 except Exception as ex:
-#                     print(ex)
-#
-#         return response
+class UserOfferTracking(Base):
+    # Laravel side: App\Models\Parsing\ParsingNotification. The table was renamed
+    # `notifications` -> `notifications_log` when Laravel took over `notifications`
+    # for its own notifiable records; this model reads the renamed table.
+    __tablename__ = 'notifications_log'
+
+    id = Column(BigInteger, primary_key=True, autoincrement=True, nullable=False)
+    user_id = Column(BigInteger, nullable=False)
+    offer_id = Column(BigInteger, nullable=False)
+    price_change = Column(Boolean, nullable=False, default=False)
+    deleted = Column(Boolean, nullable=False, default=False)
+    is_top = Column(Boolean, nullable=False, default=False)
+    created_at = Column(TIMESTAMP, default=func.now(), nullable=True)
+    updated_at = Column(TIMESTAMP, default=func.now(), onupdate=func.now(), nullable=True)
+
+    @classmethod
+    def get_all_tracking_records(cls) -> dict:
+        """Map every tracked offer_id to the list of change types subscribed to."""
+        response = {}
+        with db_session() as session:
+            rows = session.query(cls).all()
+
+            for row in rows:
+                offer_id = row.offer_id
+
+                if offer_id not in response:
+                    response[offer_id] = set()
+
+                if row.deleted:
+                    response[offer_id].add('deleted')
+                if row.is_top:
+                    response[offer_id].add('is_top')
+                if row.price_change:
+                    response[offer_id].add('price_change')
+
+            # A set is not JSON-friendly and the caller iterates it repeatedly.
+            for offer_id in response:
+                response[offer_id] = list(response[offer_id])
+
+        return response
 
 
 class Keyword(Base):

@@ -33,9 +33,10 @@ def update_realtors_url(batch_size=20):
         with db_session() as session:
 
             # Отримуємо всіх рієлторів з платформи OLX, у яких не вказаний URL
-            realtors = session.query(models.Contact).filter(
-                models.Contact.platform == 'OLX',
-                models.Contact.author_link.is_(None)
+            realtors = session.query(models.ContactPlatform).filter(
+                models.ContactPlatform.platform == 'OLX',
+                models.ContactPlatform.user_id.isnot(None),
+                models.ContactPlatform.link.is_(None)
             ).all()
 
             logg.info(f"Знайдено {len(realtors)} рієлторів без URL")
@@ -48,7 +49,7 @@ def update_realtors_url(batch_size=20):
 
                 if new_url:
                     print(f'New name: {name}. URl: {new_url}')
-                    realtor.author_link = new_url
+                    realtor.link = new_url
                     realtor.name = name
                     realtor.updated_at = datetime.now()
                     updated_count += 1

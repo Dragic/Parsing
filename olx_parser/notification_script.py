@@ -8,9 +8,6 @@ from datetime import datetime
 from database import db_session, DBSession
 from log import logger
 
-# Import the currency converter
-from currency_api import currency_converter
-
 logg = logging.getLogger('log.notification_script.py')
 
 SEMAPHORE = asyncio.Semaphore(8)
@@ -80,7 +77,7 @@ async def main():
                     if response:
 
                         notification_keys = offers_id[offer_id]
-                        logg.warning(offer_id, 'notification_keys:', notification_keys)
+                        logg.warning(f'{offer_id} notification_keys: {notification_keys}')
                         for key in notification_keys:
 
                             # перевіряємо чи повернулось значення
@@ -95,11 +92,15 @@ async def main():
 
                                 if key == 'price_change':
                                     if response.get('price_change') != ads.get('price'):
-                                        base_price = currency_converter.convert_to_uah(ads.get('price'), response.get('currency') or 'UAH')
+                                        # offers.base_price was dropped; the price is stored in the
+                                        # ad's own currency, so keep the two columns in step.
+                                        # main.py stores the OLX currency lower-cased — match it.
+                                        new_currency = response.get('currency')
+                                        changes = {'price': response.get('price_change')}
+                                        if new_currency:
+                                            changes['currency'] = new_currency.lower()
 
-                                        models.Offer.update(id=offer_id,
-                                                            base_price=base_price,
-                                                            price=response.get('price_change'))
+                                        models.Offer.update(id=offer_id, **changes)
 
                                         log_id = models.OfferLog.log_change(offer_id=offer_id,
                                                                             change_type='price_change',
