@@ -13,3 +13,6 @@ env_test
 docker-compose-pg.yml
 *.db
 *.log
+
+.venv
+logs/

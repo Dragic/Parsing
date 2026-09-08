@@ -4,11 +4,18 @@ from sqlalchemy.orm import sessionmaker
 from contextlib import contextmanager
 from settings import settings
 
-engine = create_engine(
-    settings.DATABASE_URL, connect_args={
-        "connect_timeout": 300,
-                                         **settings.DATABASE_CONNECT_DICT}
-)
+if 'sqlite' in settings.DATABASE_URL:
+    engine = create_engine(
+        settings.DATABASE_URL, connect_args={
+            **settings.DATABASE_CONNECT_DICT}
+    )
+
+else:
+    engine = create_engine(
+        settings.DATABASE_URL, connect_args={
+            "connect_timeout": 300,
+            **settings.DATABASE_CONNECT_DICT}
+    )
 
 Base = declarative_base()
 

@@ -86,6 +86,7 @@ class BaseConfig:
 
     # DATABASE_URL = f'mysql+pymysql://{DATABASE_USER}:{DATABASE_PASSWORD}@{DATABASE_HOST}:{DATABASE_PORT}/{DATABASE_NAME}'
     VECTOR_API_URL: str = os.getenv("VECTOR_API_URL", "http://108.61.170.97/api/v1/task/")
+    PHONE_API_URL: str = os.getenv("PHONE_API_URL", "http://0.0.0.0:2754/api/v1/tasks/")
 
     DATABASE_URL = f'postgresql+psycopg2://{DATABASE_USER}:{DATABASE_PASSWORD}@{DATABASE_HOST}:{DATABASE_PORT}/{DATABASE_NAME}'
     DATABASE_CONNECT_DICT: dict[str, Any] = {}

@@ -1,0 +1,27 @@
+# Local development superset for all 12 parsers.
+#
+# The repo ships a root requirements.txt (used by the OLX image) plus per-parser
+# requirements.txt files. Neither set alone covers every parser:
+#
+#   root requirements.txt : has curl_cffi + psycopg2-binary, missing beautifulsoup4/lxml/openai
+#   per-parser files      : have beautifulsoup4/lxml (and openai only in obyavaua),
+#                           most are missing psycopg2-binary, none have curl_cffi
+#
+# This file is the union, so one shared .venv at the repo root can run all 12.
+# It changes no pinned version from the repo - it only adds what is missing.
+
+-r requirements.txt
+
+# HTML parsing - used by every parser except olx_parser and dim_ria_parser
+beautifulsoup4
+lxml
+
+# OpenAI client - imported by ai_repair.py (all 12) and ai_agent.py (8 parsers).
+# Import happens at module load even when no OpenAI call is ever made,
+# so the package must be installed even for a read-only smoke test.
+openai
+
+# rieltor_ua_parser/parser.py does `from proxy_seller_user_api import Api`.
+# The package is on PyPI but is listed in no requirements.txt in this repo,
+# so rieltor_ua_parser/parser.py cannot even be imported without it.
+proxy_seller_user_api==1.0.4

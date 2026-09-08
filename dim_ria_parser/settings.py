@@ -90,7 +90,7 @@ class TestingConfig(BaseConfig):
     DATABASE_NAME = 'test_db'
     DATABASE_PORT = 3306
     BASE_DIR: pathlib.Path = pathlib.Path(__file__).parent
-    DATABASE_URL = f'mysql+pymysql://test_user:db_password@mysql:3306/test_db'
+    DATABASE_URL = "sqlite:///test.db"
 
 
 @lru_cache()

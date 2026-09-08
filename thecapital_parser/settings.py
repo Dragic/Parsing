@@ -20,6 +20,9 @@ class BaseConfig:
     DATABASE_NAME: str = os.getenv("DATABASE_NAME", "db")
     DATABASE_PORT: int = os.getenv("DATABASE_PORT", 3306)
 
+    # openAI token - required by ai_repair.py
+    OPEN_AI_TOKEN: str = os.getenv("OPEN_AI_TOKEN", "token")
+
     VECTOR_API_URL: str = os.getenv("VECTOR_API_URL", "http://108.61.170.97/api/v1/task/")
 
     DATABASE_URL = f'postgresql+psycopg2://{DATABASE_USER}:{DATABASE_PASSWORD}@{DATABASE_HOST}:{DATABASE_PORT}/{DATABASE_NAME}'
