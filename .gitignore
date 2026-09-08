@@ -1,0 +1,15 @@
+.env
+.idea
+.DS_Store
+.log
+olx_parser/logs.log
+venv
+__pycache__
+*.sqlite3
+olx_parser/local_db.sqlite3
+env_prod
+env_test
+/.log
+docker-compose-pg.yml
+*.db
+*.log

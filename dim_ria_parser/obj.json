@@ -1,0 +1,1278 @@
+{
+  "realty": {
+    "rangeFactorTopQuality": 1746172200,
+    "is_show_building_no": 1,
+    "lf_links_uk": [],
+    "moderation_date_ts": 1746175018,
+    "total_square_meters": 34,
+    "user_newbuild_id": 5805,
+    "floor": 8,
+    "created_at": "2025-05-02 10:49:59",
+    "user_id": 8260796,
+    "realty_type_parent_id": 1,
+    "building_number_str": "2",
+    "wall_type_uk": "цегла",
+    "is_calltracking": 0,
+    "street_id": 5862,
+    "district_name": "Нивки",
+    "video_inspected_till": "2025-08-05 15:08:01",
+    "date_end_ts": 1754482083,
+    "rooms_count": 1,
+    "floors_count": 9,
+    "location": "50.47141741,30.39889658",
+    "user_newbuild_name": "ЖК Файна Таун",
+    "advert_publish_type": 1,
+    "is_exclusive": 0,
+    "flat_number_str": "290",
+    "state_name_uk": "Київська",
+    "web_id": "bdfb5c1c32ea94fd",
+    "living_square_meters": 14,
+    "realty_sale_type": 1,
+    "is_show_flat_no": 0,
+    "number_not_assigned": 0,
+    "district_id": 18201,
+    "photos_count": 10,
+    "characteristics_values": {
+      "118": 108,
+      "209": 1,
+      "214": 34,
+      "216": 14,
+      "218": 18,
+      "227": 8,
+      "228": 9,
+      "235": 750,
+      "246": 243,
+      "443": 1751,
+      "516": 507,
+      "777": 777,
+      "806": 802,
+      "990": 990,
+      "1001": 1001,
+      "1003": 1003,
+      "1141": 1139,
+      "1437": 1434,
+      "1575": 1575,
+      "1580": 1580,
+      "1650": 1648,
+      "1797": 1797,
+      "1799": 1799,
+      "1898": 1898,
+      "2000": 1998,
+      "2037": 2037,
+      "2044": 2044,
+      "2071": 2
+    },
+    "rangeFactorIns": 100001746446883,
+    "flat_entity_id": "6818aa541d3e4163d1689fce",
+    "created_at_ts": 1746172199,
+    "city_name_uk": "Київ",
+    "show_on_map": 1,
+    "realty_type_id": 2,
+    "publishing_date_ts": 1746446883,
+    "photos": [
+      {
+        "id": 317404589,
+        "parent_photo_id": 317404589,
+        "ordering": 1,
+        "file": "dom/photo/31740/3174045/317404589/317404589.jpg",
+        "beautifulUrl": "dom/photo/dolgosrochnaya-arenda-kvartira-kiev-nivki-salyutnaya-ulitsa__317404589.jpg"
+      },
+      {
+        "id": 317404587,
+        "parent_photo_id": 317404587,
+        "ordering": 2,
+        "file": "dom/photo/31740/3174045/317404587/317404587.jpg",
+        "beautifulUrl": "dom/photo/dolgosrochnaya-arenda-kvartira-kiev-nivki-salyutnaya-ulitsa__317404587.jpg"
+      },
+      {
+        "id": 317404593,
+        "parent_photo_id": 317404593,
+        "ordering": 3,
+        "file": "dom/photo/31740/3174045/317404593/317404593.jpg",
+        "beautifulUrl": "dom/photo/dolgosrochnaya-arenda-kvartira-kiev-nivki-salyutnaya-ulitsa__317404593.jpg"
+      },
+      {
+        "id": 317404586,
+        "parent_photo_id": 317404586,
+        "ordering": 4,
+        "file": "dom/photo/31740/3174045/317404586/317404586.jpg",
+        "beautifulUrl": "dom/photo/dolgosrochnaya-arenda-kvartira-kiev-nivki-salyutnaya-ulitsa__317404586.jpg"
+      },
+      {
+        "id": 317404588,
+        "parent_photo_id": 317404588,
+        "ordering": 5,
+        "file": "dom/photo/31740/3174045/317404588/317404588.jpg",
+        "beautifulUrl": "dom/photo/dolgosrochnaya-arenda-kvartira-kiev-nivki-salyutnaya-ulitsa__317404588.jpg"
+      },
+      {
+        "id": 317404590,
+        "parent_photo_id": 317404590,
+        "ordering": 6,
+        "file": "dom/photo/31740/3174045/317404590/317404590.jpg",
+        "beautifulUrl": "dom/photo/dolgosrochnaya-arenda-kvartira-kiev-nivki-salyutnaya-ulitsa__317404590.jpg"
+      },
+      {
+        "id": 317404591,
+        "parent_photo_id": 317404591,
+        "ordering": 7,
+        "file": "dom/photo/31740/3174045/317404591/317404591.jpg",
+        "beautifulUrl": "dom/photo/dolgosrochnaya-arenda-kvartira-kiev-nivki-salyutnaya-ulitsa__317404591.jpg"
+      },
+      {
+        "id": 317404592,
+        "parent_photo_id": 317404592,
+        "ordering": 8,
+        "file": "dom/photo/31740/3174045/317404592/317404592.jpg",
+        "beautifulUrl": "dom/photo/dolgosrochnaya-arenda-kvartira-kiev-nivki-salyutnaya-ulitsa__317404592.jpg"
+      },
+      {
+        "id": 317404594,
+        "parent_photo_id": 317404594,
+        "ordering": 9,
+        "file": "dom/photo/31740/3174045/317404594/317404594.jpg",
+        "beautifulUrl": "dom/photo/dolgosrochnaya-arenda-kvartira-kiev-nivki-salyutnaya-ulitsa__317404594.jpg"
+      },
+      {
+        "id": 317404595,
+        "parent_photo_id": 317404595,
+        "ordering": 10,
+        "file": "dom/photo/31740/3174045/317404595/317404595.jpg",
+        "beautifulUrl": "dom/photo/dolgosrochnaya-arenda-kvartira-kiev-nivki-salyutnaya-ulitsa__317404595.jpg"
+      }
+    ],
+    "currency_type_uk": "$",
+    "date_end": "2025-08-06 15:08:03",
+    "longitude": 30.39889658,
+    "publishing_date": "2025-05-05 15:08:03",
+    "quadrants": {
+      "zoom_10": "598_345",
+      "zoom_9": "299_172",
+      "zoom_18": "153207_88368",
+      "zoom_17": "76603_44184",
+      "zoom_16": "38301_22092",
+      "zoom_11": "1196_690",
+      "zoom_8": "149_86",
+      "zoom_13": "4787_2761",
+      "zoom_6": "37_21",
+      "zoom_7": "74_43",
+      "zoom_12": "2393_1380",
+      "zoom_15": "19150_11046",
+      "zoom_14": "9575_5523"
+    },
+    "district_name_uk": "Нивки",
+    "kitchen_square_meters": 18,
+    "video_inspected_till_ts": 1754395681,
+    "city_id": 10,
+    "currency_type_id": 1,
+    "realty_type_parent_name_uk": "Житло",
+    "is_commercial": 1,
+    "flat_entity_id_key": "6818aa541d3e4163d1689fce",
+    "realty_type_name": "Квартира",
+    "duplicate_copy": {
+      "33069769": 33069769
+    },
+    "street_name": "Салютная улица",
+    "advert_type_name": "долгосрочная аренда",
+    "user_ip": 528839437,
+    "description": "",
+    "district_type_id": 1,
+    "newbuild_entity_id": "64ec3e3d4e5bd1787e0ba533",
+    "moderation_date": "2025-05-02 11:36:58",
+    "price": 750,
+    "wall_type": "кирпич",
+    "realty_type_parent_name": "Жилье",
+    "advert_type_name_uk": "довгострокова оренда",
+    "state_id": 10,
+    "user_newbuild_name_uk": "ЖК Файна Таун",
+    "actualized_status": 1,
+    "agency_id": 30696,
+    "building_entity_id": "63a04138601e19a4e8749017",
+    "moderated": 1,
+    "advert_type_id": 3,
+    "currency_type": "$",
+    "latitude": 50.47141741,
+    "price_item": 22,
+    "lf_links": [],
+    "state_name": "Киевская",
+    "description_uk": "Сучасна квартира в ЖК бізнес-класу  ідеальна для життя!\n\nПропонуємо стильну 1-кімнатну квартиру площею 34 м² в одному з найкращих житлових комплексів.\nПідійде як для однієї людини, так і для пари.\n\nПланування:\n окрема спальня з великим ліжком\n кухня з усім необхідним для приготування та відпочинку\n зручний диван у зоні відпочинку\n просторий санвузол\n продумане зонування для максимального комфорту\n\nПереваги:\n дизайнерський ремонт  заїжджай і живи\n гарний краєвид з вікон\n приємні сусіди\n тихий та безпечний ЖК бізнес-класу з відеоспостереженням\n якісна інфраструктура поруч\n\nДодаткове відео квартири  надсилаю в приватні повідомлення.\nНе зволікайте  такі варіанти швидко зникають!\n\n#A16205",
+    "realty_id": 33058104,
+    "street_name_uk": "Салютна вулиця",
+    "price_total": 750,
+    "video_inspected_at": "2025-05-05 15:08:01",
+    "city_name": "Киев",
+    "quality": 85,
+    "complete_time": 199.622,
+    "radius_location": 0,
+    "youtube_link": "",
+    "verified_statuses": {
+      "digitally_inspected": 0,
+      "inspected": 0,
+      "video_inspected": 3,
+      "video_review": 0,
+      "tech_passport_verified": 0,
+      "cadastral_inspected": 0
+    },
+    "moderator_id": 15229390,
+    "video_inspected_at_ts": 1746446881,
+    "actualized_at_ts": 1746446881,
+    "add_form_version": 3,
+    "beautiful_url": "realty-dolgosrochnaya-arenda-kvartira-kiev-nivki-salyutnaya-ulitsa-33058104.html",
+    "main_photo": "dom/photo/dolgosrochnaya-arenda-kvartira-kiev-nivki-salyutnaya-ulitsa__317404589.jpg",
+    "actualized_at": "2025-05-05 15:08:01",
+    "entity_group": 2,
+    "newbuild_id": 5805,
+    "updated_at": "2025-05-06 09:48:33",
+    "partner_id": 5,
+    "user_package_id": 241,
+    "district_type_name": "Район",
+    "disable_comments": 1,
+    "video_inspected": 1,
+    "realty_type_name_uk": "Квартира",
+    "updated_at_ts": 1746514113,
+    "chatSecure": "b9d0cad405ba9176e985c86a4c893e1d",
+    "priceObj": {
+      "priceUSD": "750",
+      "priceEUR": "657",
+      "priceUAH": "31 238"
+    },
+    "priceArr": {
+      "1": "750",
+      "2": "657",
+      "3": "31 238"
+    },
+    "priceArrText": {
+      "total": "за месяц",
+      "item": "",
+      "showPriceItem": false
+    },
+    "priceItem": "22",
+    "videoInspection": {
+      "inspectedAt": "2025-05-05 15:08:01",
+      "chars": [
+        {
+          "value": "Вторичная недвижимость",
+          "relink": {
+
+          }
+        },
+        {
+          "value": [
+            "1 комната"
+          ],
+          "charId": 209,
+          "charIds": [209],
+          "relink": {
+            "209": "/arenda-kvartir/kiev-1k/"
+          }
+        },
+        {
+          "value": "8 этаж из 9",
+          "charId": 228,
+          "charIds": [228],
+          "relink": {
+
+          }
+        },
+        {
+          "value": "Предложение от посредника",
+          "charId": 1437,
+          "charIds": [1437],
+          "relink": {
+
+          }
+        }
+      ],
+      "inspectedTitle": "Проверено по видеозвонку",
+      "plateTitle": ""
+    },
+    "digitalInspection": {
+
+    },
+    "isShowBlockPersonalisation": false,
+    "versionBlockPersonalisation": 0,
+    "chatUrl": "https://chat.ria.com/2/33058104?secure=b9d0cad405ba9176e985c86a4c893e1d&lang_id=2",
+    "isBinotelOwner": 0,
+    "imgAlt": "однокомнатная квартира в Киеве, район Нивки, на ул. Салютная 2 в аренду на долгий срок помесячно",
+    "imgTitle": "однокомнатная квартира в Киеве, район Нивки, на ул. Салютная 2 в аренду на долгий срок помесячно",
+    "metaImg": "https://dom.ria.com/photoInspected/realty/photo/1/2/317404589.jpg",
+    "isNotepad": false,
+    "secondaryParams": [
+      {
+        "groupName": "Характеристика помещения",
+        "prio": 288,
+        "items": [
+          {
+            "label": "состояние квартиры: евроремонт",
+            "id": "516"
+          },
+          {
+            "label": "утепление: внешнее",
+            "id": "806"
+          }
+        ],
+        "relink": {
+
+        }
+      },
+      {
+        "groupName": "Отопление",
+        "prio": 280,
+        "items": [
+          {
+            "label": "централизованное",
+            "id": "1575"
+          }
+        ],
+        "relink": {
+
+        }
+      },
+      {
+        "groupName": "Подогрев воды",
+        "prio": 280,
+        "items": [
+          {
+            "label": "централизованный",
+            "id": "1580"
+          }
+        ],
+        "relink": {
+
+        }
+      },
+      {
+        "groupName": "Помещения",
+        "prio": 270,
+        "items": [
+          {
+            "label": "совмещенный санузел",
+            "id": "2044"
+          }
+        ],
+        "relink": {
+
+        }
+      },
+      {
+        "groupName": "Оборудование / мебель / удобства",
+        "prio": 250,
+        "items": [
+          {
+            "label": "диван",
+            "id": "990"
+          },
+          {
+            "label": "счетчик на электричество",
+            "id": "1001"
+          },
+          {
+            "label": "счетчик на воду",
+            "id": "1003"
+          },
+          {
+            "label": "электричество",
+            "id": "1898"
+          }
+        ],
+        "relink": {
+
+        }
+      },
+      {
+        "groupName": "Подъезд",
+        "prio": 230,
+        "items": [
+          {
+            "label": "бронированная дверь",
+            "id": "2037"
+          }
+        ],
+        "relink": {
+
+        }
+      },
+      {
+        "groupName": "Положение и окружение",
+        "prio": 190,
+        "items": [
+          {
+            "label": "тип двора: закрытого типа (вход, въезд ограничен)",
+            "id": "1141"
+          }
+        ],
+        "relink": {
+
+        }
+      }
+    ],
+    "mainCharacteristics": {
+      "additional": [],
+      "chars": [
+        {
+          "charId": 214,
+          "value": [
+            "Общая площадь 34 м²",
+            "жилая 14 м²",
+            "кухня 18 м²"
+          ],
+          "charVal": 34,
+          "charIds": [214],
+          "relink": {
+
+          }
+        },
+        {
+          "charId": 118,
+          "value": "Стены из кирпича",
+          "charVal": 108,
+          "charIds": [118],
+          "relink": {
+
+          }
+        },
+        {
+          "charId": 443,
+          "value": [
+            "Построен в 2021"
+          ],
+          "charVal": 1751,
+          "charIds": [443],
+          "relink": {
+            "443": "/arenda-kvartir/kiev-novuy-dom/"
+          }
+        }
+      ],
+      "dashes": [
+        "Вторичное жилье"
+      ],
+      "title": "Долгосрочная аренда квартиры",
+      "inspectedTitle": "Перевірена квартира",
+      "baseInfo": {
+        "p1": {
+          "label": "Комнат",
+          "value": "1",
+          "name": "Комнат"
+        },
+        "p2": {
+          "value": "34 м²",
+          "name": "Площадь",
+          "label": "Общая"
+        }
+      }
+    },
+    "relink": {
+      "items": {
+        "Пользуется спросом на DIM.RIA": [
+          {
+            "label": "Квартиры на съем для студентов в Киеве",
+            "url": "/arenda-kvartir/kiev-dlya-studentov/",
+            "block_name": "Пользуется спросом на DIM.RIA"
+          },
+          {
+            "label": "Аренда квартир в Киеве дешево",
+            "url": "/arenda-kvartir/kiev-nedorogo/",
+            "block_name": "Пользуется спросом на DIM.RIA"
+          },
+          {
+            "label": "Аренда квартиры в Киеве с животными",
+            "url": "/arenda-kvartir/kiev-s-zhivotnymi/",
+            "block_name": "Пользуется спросом на DIM.RIA"
+          }
+        ],
+        "Вас могут заинтересовать": [
+          {
+            "label": "Риелторы Киева",
+            "url": "https://dom.ria.com/realtors/kiev/",
+            "block_name": "Вас могут заинтересовать"
+          },
+          {
+            "label": "Цены на аренду квартир на вторичном рынке Киева",
+            "url": "https://dom.ria.com/arenda-kvartir/kiev/ceny/",
+            "block_name": "Вас могут заинтересовать"
+          },
+          {
+            "label": "Долгосрочная аренда домов в Киеве",
+            "url": "https://dom.ria.com/arenda-domov/kiev/",
+            "block_name": "Вас могут заинтересовать"
+          }
+        ],
+        "Квартиры в ближайших городах": [
+          {
+            "label": "Аренда однокомнатных квартир в Житомире",
+            "url": "/arenda-kvartir/zhitomir-1k/",
+            "block_name": "Квартиры в ближайших городах"
+          },
+          {
+            "label": "Аренда однокомнатных квартир в Чернигове",
+            "url": "/arenda-kvartir/chernigov-1k/",
+            "block_name": "Квартиры в ближайших городах"
+          },
+          {
+            "label": "Аренда однокомнатных квартир в Полтаве",
+            "url": "/arenda-kvartir/poltava-1k/",
+            "block_name": "Квартиры в ближайших городах"
+          }
+        ]
+      },
+      "newRelink": true
+    },
+    "utpParams": [
+      {
+        "label": "Спокойный район",
+        "id": 1799
+      },
+      {
+        "label": "Оперативный показ",
+        "id": 1797
+      }
+    ],
+    "polygon": "",
+    "newbuildPolygonExists": true,
+    "isComplexInspected": true,
+    "isFreePubWithoutIns": 0,
+    "isFreePubWithIns": 0,
+    "isActivePaidPublished": true,
+    "exclusiveOnModeration": false,
+    "fullStreetName": "ул. Салютная",
+    "main_photo_format": "fl",
+    "main_photo_id": 317404589,
+    "use_webp": true
+  },
+  "breadcrumbs": [
+    {
+      "linkUrl": "/arenda-kvartir/",
+      "linkTitle": "Квартира",
+      "linkAttr": "realty_type_name",
+      "linkValue": 2,
+      "itemTitle": "Аренда квартир"
+    },
+    {
+      "linkUrl": "/arenda-kvartir/obl-kievskaya/",
+      "linkTitle": "Киевская область",
+      "linkAttr": "state_name",
+      "linkValue": 10,
+      "itemTitle": "Киевская область"
+    },
+    {
+      "linkUrl": "/arenda-kvartir/kiev/",
+      "linkTitle": "Киев",
+      "linkAttr": "city_name",
+      "linkValue": 10,
+      "itemTitle": "Киев"
+    },
+    {
+      "linkUrl": "/arenda-kvartir/kiev-ul-saliutnaia/",
+      "linkTitle": "Салютная улица",
+      "linkAttr": "street_name",
+      "linkValue": 5862,
+      "itemTitle": "Салютная улица"
+    }
+  ],
+  "metaTitle": "DIM.RIA – Сдам 1 комнатную квартиру, улица Салютная 2 район Нивки в Киеве в долгосрочную аренду, цена: 31 238 грн ID33058104",
+  "metaDescription": "Сучасна квартира в ЖК бізнес-класу  ідеальна для життя!\n\nПропонуємо стильну 1-кімнатну квартиру площею 34 м² в одному з найк ID33058104",
+  "hash": "225ba141069aa4f05ea1bd9c91acc32a32feff7cb42dcb5e99e6f5ce6f8643b108b788c80ac7ea4f9f642064f2d672af2b944b386be08e9a4807c75a9b2cbbb59f73196a81030a38ac4123c6a5",
+  "dfp": {
+    "realty_type": "kvartiry",
+    "advert_type": "arenda-pomesyachno",
+    "realty_class": "bu",
+    "state": 10,
+    "city": 10,
+    "price": "1-10000",
+    "newbuiding": 1
+  },
+  "tagH": "Долгосрочная аренда 1к квартиры, Салютная улица 2 в районе Нивки в Киеве",
+  "agencyOwner": {
+    "owner": {
+      "avatar": "avatars/all/826/82607/8260796/8260796.jpg",
+      "name": "Сергій THE Capital",
+      "phones": [
+        {
+          "code": "073"
+        }
+      ],
+      "verified": 1
+    },
+    "agency": {
+      "verified": 2,
+      "url": "https://thecapital.com.ua/",
+      "logo": "dom/logo/3/306/30696/30696.jpg?v=1725005699217",
+      "agency_id": 30696,
+      "name": "Агентство недвижимости T.H.E. Capital",
+      "announce": null,
+      "agency_type": 1,
+      "asnuVerified": false,
+      "ssnuVerified": false
+    }
+  },
+  "districtRate": {
+    "districtId": 18201,
+    "name": "Нивки",
+    "nameLocative": "Нивках",
+    "detailed": [
+      {
+        "key": "Зоны отдыха",
+        "value": "6.9",
+        "rateMax": 10
+      },
+      {
+        "key": "Транспорт",
+        "value": "6.8",
+        "rateMax": 10
+      },
+      {
+        "key": "Инфраструктура",
+        "value": "6.6",
+        "rateMax": 10
+      },
+      {
+        "key": "Безопасность",
+        "value": "5.6",
+        "rateMax": 10
+      },
+      {
+        "key": "Экология",
+        "value": "6.5",
+        "rateMax": 10
+      }
+    ],
+    "rate": "6.5",
+    "rateMax": 10,
+    "reviewsCount": 75,
+    "reviewReadText": "Читать все 75 отзывов →",
+    "reviewReadTextV2": "Читать все 75 отзывов",
+    "readReviewsUrl": "/ru/rate-region-stat/18201/",
+    "addReviewUrl": "/ru/rate-region/18201/"
+  },
+  "newbuildData": {
+    "specs": {
+      "developerFinal": {
+        "developerUrl": "/zastroishchik-kan-development-5239744/",
+        "localizedName": "Кан Девелопмент",
+        "logoCircle": "https://cdn.riastatic.com/photos/dom/newbuild_photo/15/1551/155137/155137lc.jpg"
+      },
+      "developerAddress": {
+        "dayFrom": 1,
+        "dayTo": 5,
+        "timeFrom": "10:00",
+        "timeTo": "19:00",
+        "saturdayTimeFrom": "",
+        "saturdayTimeTo": "",
+        "sundayTimeFrom": "",
+        "sundayTimeTo": "",
+        "workInWar": true,
+        "address": "ул. Салютная, 2В"
+      },
+      "installment": {
+        "paymentTerm": "до 7 лет ",
+        "firstContribution": "от 10",
+        "firstContributionType": "%",
+        "annualRate": "0",
+        "annualRateType": "%",
+        "installmentConditions": "Рассрочка 0% до 7 лет, первый взнос от 10%",
+        "installmentDescription": "Уточняйте детали в отделе продаж"
+      },
+      "credit": null,
+      "credits": null,
+      "installmentOrCreditUpdateDate": "2025-04-25T11:15:26.000Z",
+      "promo": 0,
+      "promoText": null,
+      "promos": [],
+      "commercial": 0,
+      "buildClassName": "Комфорт",
+      "buildClassLink": "/articles/klassy-pervichki-novostrojki-komfort-klassa-185301.html",
+      "ceilingHeight": 2.6,
+      "flatCount": 8339,
+      "floorMin": 5,
+      "name": "ЖК Файна Таун",
+      "street": "ул. Салютная, 2Б",
+      "floorMax": 16,
+      "newbuildUrl": "/novostroyka-zhk-faina-taun-5805/",
+      "sold": null,
+      "cityId": 10,
+      "stateId": 10,
+      "calls": 0,
+      "callbackConversionValue": null,
+      "developer": {
+        "developerId": "5239744",
+        "rating": 85,
+        "ratingScore": 85,
+        "hasLicense": 1,
+        "developerUrl": "/zastroishchik-kan-development-5239744/"
+      },
+      "constructionTechnologies": [
+        {
+          "title": "Монолитно-каркасная",
+          "href": ""
+        },
+        {
+          "title": "Монолитно-блочная",
+          "href": ""
+        }
+      ],
+      "landArea": 0,
+      "renovated": 0,
+      "finishTypeName": "Под чистовую",
+      "wallsType": "Газоблок",
+      "parking": "Подземная, Наземный паркинг, Многоуровневая",
+      "contractType": 4,
+      "contractTypeTitle": "Инвестиционный договор",
+      "contractTypeHref": "https://dom.ria.com/articles/pokupka-novostroya-investicionnyj-dogovor-177017.html",
+      "userId": 3474829,
+      "trafficSiteUrl": "",
+      "newbuildId": "5805",
+      "hasConsultation": 0,
+      "withFlats": null
+    },
+    "info": {
+      "nearestMetroStations": [
+        {
+          "mode": 1,
+          "duration": 1480,
+          "metroStation": {
+            "line": 3,
+            "name": "Нивки",
+            "translit": "nivki",
+            "cityId": 10,
+            "catalogLink": "/novostroyki/kiev-metro-nivki/"
+          }
+        },
+        {
+          "mode": 1,
+          "duration": 1663,
+          "metroStation": {
+            "line": 3,
+            "name": "Святошин",
+            "translit": "svyatoshin",
+            "cityId": 10,
+            "catalogLink": "/novostroyki/kiev-metro-svyatoshin/"
+          }
+        },
+        {
+          "mode": 2,
+          "duration": 1000,
+          "metroStation": {
+            "line": 3,
+            "name": "Берестейская",
+            "translit": "beresteyskaya",
+            "cityId": 10,
+            "catalogLink": "/novostroyki/kiev-metro-beresteyskaya/"
+          }
+        }
+      ],
+      "infrastructureItems": [
+        {
+          "name": "Учебные заведения",
+          "id": "education_institution",
+          "type": 7,
+          "nearestItems": [
+            {
+              "duration": 282,
+              "mode": 1,
+              "place": {
+                "name": "Языковая школа \"Slavic Education School\""
+              }
+            },
+            {
+              "duration": 651,
+              "mode": 1,
+              "place": {
+                "name": "Школа игры на гитаре \"Viktoriya\""
+              }
+            }
+          ]
+        },
+        {
+          "name": "Больница",
+          "id": "hospital",
+          "type": 2,
+          "nearestItems": [
+            {
+              "duration": 344,
+              "mode": 1,
+              "place": {
+                "name": "Стоматологическая клиника Гараняна "
+              }
+            },
+            {
+              "duration": 784,
+              "mode": 1,
+              "place": {
+                "name": "Медицинский центр \"Медельвейс\""
+              }
+            }
+          ]
+        },
+        {
+          "name": "ТЦ, рынок, магазины",
+          "id": "stores",
+          "type": 8,
+          "nearestItems": [
+            {
+              "duration": 243,
+              "mode": 1,
+              "place": {
+                "name": "Магазин мебели \"Мої меблі\""
+              }
+            },
+            {
+              "duration": 510,
+              "mode": 1,
+              "place": {
+                "name": "ТЦ \"МегаМаркет\" Нивки"
+              }
+            },
+            {
+              "duration": 839,
+              "mode": 1,
+              "place": {
+                "name": "Студия ландшафтного дизайна Фрейя"
+              }
+            },
+            {
+              "duration": 1215,
+              "mode": 2,
+              "place": {
+                "name": "Магазин косметики EVA"
+              }
+            }
+          ]
+        },
+        {
+          "name": "Парковые зоны",
+          "id": "park",
+          "type": 9,
+          "nearestItems": [
+            {
+              "duration": 349,
+              "mode": 1,
+              "place": {
+                "name": "Детский парк \"Радуга\""
+              }
+            }
+          ]
+        },
+        {
+          "name": "Транспортная развязка",
+          "id": "transportation",
+          "type": 10,
+          "nearestItems": [
+            {
+              "duration": 1333,
+              "mode": 2,
+              "place": {
+                "name": "ст. м. Нивки"
+              }
+            },
+            {
+              "duration": 1522,
+              "mode": 2,
+              "place": {
+                "name": "ст. м. Святошин"
+              }
+            }
+          ]
+        },
+        {
+          "name": "Школа",
+          "id": "school",
+          "type": 1,
+          "nearestItems": []
+        },
+        {
+          "name": "Детский сад",
+          "id": "kindergarten",
+          "type": 3,
+          "nearestItems": []
+        },
+        {
+          "name": "Наземный паркинг",
+          "id": "groundParking",
+          "type": null,
+          "nearestItems": []
+        },
+        {
+          "name": "Многоуровневый паркинг",
+          "id": "twolayerParking",
+          "type": null,
+          "nearestItems": []
+        }
+      ],
+      "advantageItems": []
+    },
+    "infoForZhkCatalogs": {
+      "newbuildUrl": "/novostroyka-zhk-faina-taun-5805/",
+      "nameWithoutEstateType": "Файна Таун",
+      "newbuildId": "5805",
+      "estateType": 1,
+      "city": {
+        "translit": "kiev"
+      }
+    }
+  },
+  "newbuildDataOptionsArr": [
+    {
+      "id": "parking",
+      "content": "Подземный паркинг, наземный паркинг, многоуровневый паркинг",
+      "link": null
+    },
+    {
+      "id": "territory",
+      "content": "Закрытая территория",
+      "link": null
+    },
+    {
+      "id": "finishTypeName",
+      "content": "Под чистовую внутреннюю отделку",
+      "link": null
+    },
+    {
+      "id": "constructionTechnologyName",
+      "content": "Монолитно-каркасный дом, монолитно-блочный дом",
+      "link": ""
+    },
+    {
+      "id": "floorMax",
+      "content": "5-16 этажей",
+      "link": null
+    },
+    {
+      "id": "heatingType",
+      "content": "Автономное отопление",
+      "link": null
+    },
+    {
+      "id": "wallsType",
+      "content": "Стены из газоблока",
+      "link": null
+    },
+    {
+      "id": "insulation",
+      "content": "Утепленный минеральной ватой",
+      "link": null
+    },
+    {
+      "id": "contractTypeTitle",
+      "content": "Инвестиционный договор",
+      "link": ""
+    },
+    {
+      "id": "ceilingHeight",
+      "content": "Высота потолков до 3.9 м",
+      "link": null
+    },
+    {
+      "id": "buildClassName",
+      "content": "Класс комфорт",
+      "link": ""
+    },
+    {
+      "id": "flatCount",
+      "content": "8339 квартир",
+      "link": null
+    }
+  ],
+  "otherPlansData": null,
+  "complainsList": {
+    "2": {
+      "1": "Объявление неактуально",
+      "2": "Неверные контактные данные",
+      "3": "Подозрение в мошенничестве",
+      "4": "Ложное описание или фото",
+      "5": "Неправильная цена",
+      "6": "Недвижимости не существует",
+      "7": "Объект под задатком",
+      "8": "Это мой эксклюзив",
+      "9": "Это моя собственность",
+      "10": "Неверный адрес",
+      "11": "Неверное расположение на карте",
+      "21": "Рассказал все детали об объекте по телефону",
+      "22": "Быстро ответил на звонок",
+      "23": "Был достаточно вежливым",
+      "24": "Вел себя достаточно профессионально",
+      "25": "Изъявил желание помочь с поиском недвижимости",
+      "50": "Другое"
+    },
+    "4": {
+      "1": "Оголошення неактуальне",
+      "2": "Неправильні контактні дані",
+      "3": "Підозра в шахрайстві",
+      "4": "Неправдивий опис чи фото",
+      "5": "Неправильна ціна",
+      "6": "Нерухомості не існує",
+      "7": "Об'єкт під завдатком",
+      "8": "Це мій ексклюзив",
+      "9": "Це моя власність",
+      "10": "Неправильна адреса",
+      "11": "Неправильне розташування на мапі",
+      "21": "Розповів всі деталі про об'єкт по телефону",
+      "22": "Швидко відповів на дзвінок",
+      "23": "Був досить ввічливим",
+      "24": "Поводив себе досить професійно",
+      "25": "Виявив бажання допомогти з пошуком нерухомості",
+      "50": "Інше"
+    }
+  },
+  "buildingInfo": {
+    "building_id": "63a04138601e19a4e8749017",
+    "cityId": 10,
+    "newbuildId": 5805,
+    "buildingNum": "2",
+    "streetId": 5862,
+    "buildingLocation": "ул. Салютная, 2",
+    "cityName": "Киев",
+    "districtName": "Нивки",
+    "sections": [
+      {
+        "header": "Дом",
+        "sub": [
+          {
+            "title": "Построен в 2021"
+          },
+          {
+            "title": "Наружная отделка из декоративной штукатурки"
+          },
+          {
+            "title": "3 подъезда"
+          },
+          {
+            "title": "Утеплен снаружи"
+          }
+        ]
+      },
+      {
+        "header": "Двор",
+        "sub": [
+          {
+            "title": "Закрытый двор"
+          }
+        ]
+      },
+      {
+        "header": "Дополнительные удобства",
+        "sub": [
+          {
+            "title": "Детская площадка; зона отдыха (столы, мангалы); спортивная площадка"
+          },
+          {
+            "title": "Общедомовой счетчик на воду; счетчик тепла/теплопункт"
+          },
+          {
+            "title": "Продуктовый магазин; аптека; парикмахерская/салон красоты; кафе/бар/ресторан; банк; магазины промтоваров; учебные и развивающие заведения; почтовое отделение"
+          }
+        ]
+      },
+      {
+        "header": "",
+        "sub": []
+      }
+    ],
+    "geo": [
+      {
+        "y": "30.39889657515143",
+        "x": "50.47141741411127"
+      }
+    ],
+    "nearestMetro": {
+      "id": 17379,
+      "name": "Нивки",
+      "type": 1,
+      "duration": 1486
+    },
+    "infrastructure": [
+      {
+        "header": "Учебные заведения",
+        "cat": "educational",
+        "sub": [
+          {
+            "id": 27365,
+            "name": "Національний педагогічний університет ім. Михайла Драгоманова",
+            "type": 1,
+            "duration": 1126
+          },
+          {
+            "id": 10802,
+            "name": "Перший Київський медичний коледж",
+            "type": 1,
+            "duration": 1175
+          },
+          {
+            "id": 12093,
+            "name": "Європейський університет",
+            "type": 1,
+            "duration": 2472
+          }
+        ]
+      },
+      {
+        "header": "Детский сад",
+        "cat": "kindergarten",
+        "sub": [
+          {
+            "id": 15199,
+            "name": "Дитячий садок №465",
+            "type": 1,
+            "duration": 425
+          },
+          {
+            "id": 15185,
+            "name": "Дитячий садок №388 для тубінфікованих",
+            "type": 1,
+            "duration": 627
+          },
+          {
+            "id": 15190,
+            "name": "Дитячий садок №419 \"Золота рибка\"",
+            "type": 1,
+            "duration": 683
+          }
+        ]
+      },
+      {
+        "header": "ТЦ, рынок, магазины",
+        "cat": "retail",
+        "sub": [
+          {
+            "id": 30236,
+            "name": "Auchan",
+            "type": 1,
+            "duration": 55
+          },
+          {
+            "id": 26918,
+            "name": "ЛотОК",
+            "type": 1,
+            "duration": 240
+          },
+          {
+            "id": 27099,
+            "name": "МегаМаркет",
+            "type": 1,
+            "duration": 719
+          }
+        ]
+      },
+      {
+        "header": "Школа",
+        "cat": "school",
+        "sub": [
+          {
+            "id": 11276,
+            "name": "Гімназія \"Прем'єр\"",
+            "type": 1,
+            "duration": 537
+          },
+          {
+            "id": 11521,
+            "name": "Школа №175",
+            "type": 1,
+            "duration": 674
+          },
+          {
+            "id": 11586,
+            "name": "Школа №27",
+            "type": 1,
+            "duration": 840
+          }
+        ]
+      },
+      {
+        "header": "Больница",
+        "cat": "medical",
+        "sub": [
+          {
+            "id": 24137,
+            "name": "Аптека низьких цін",
+            "type": 1,
+            "duration": 343
+          },
+          {
+            "id": 11005,
+            "name": "Дитяча клінічна лікарня №5 Святошинського району",
+            "type": 2,
+            "duration": 465
+          },
+          {
+            "id": 17156,
+            "name": "Київський міський психоневрологічний диспансер №4",
+            "type": 1,
+            "duration": 834
+          }
+        ]
+      },
+      {
+        "header": "Парковые зоны",
+        "cat": "park",
+        "sub": [
+          {
+            "id": 11113,
+            "name": "Веселка",
+            "type": 1,
+            "duration": 234
+          },
+          {
+            "id": 11188,
+            "name": "Сквер Верстатобудівний ",
+            "type": 1,
+            "duration": 713
+          },
+          {
+            "id": 11122,
+            "name": "Дубовий гай",
+            "type": 1,
+            "duration": 1406
+          }
+        ]
+      },
+      {
+        "header": "Транспортная развязка",
+        "cat": "stops",
+        "sub": [
+          {
+            "id": 9500,
+            "name": "вулиця Салютна",
+            "type": 1,
+            "duration": 236
+          },
+          {
+            "id": 9558,
+            "name": "Готель Нивки ",
+            "type": 1,
+            "duration": 418
+          },
+          {
+            "id": 9790,
+            "name": "Київська овочева фабрика",
+            "type": 1,
+            "duration": 554
+          }
+        ]
+      },
+      {
+        "header": "Наземный паркинг",
+        "cat": "parking",
+        "sub": [
+          {
+            "id": 25629,
+            "name": "Паркінг для студентів КУП НАНУ",
+            "type": 2,
+            "duration": 474
+          },
+          {
+            "id": 28052,
+            "name": "Підземний паркінг",
+            "type": 2,
+            "duration": 589
+          },
+          {
+            "id": 32451,
+            "name": "Паркінг",
+            "type": 2,
+            "duration": 630
+          }
+        ]
+      }
+    ]
+  },
+  "postCodeStr": "UA, Киевская, Киев, 01001"
+}
