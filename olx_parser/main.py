@@ -410,6 +410,42 @@ def build_rc_lookup():
     return dict(lookup)
 
 
+def apply_location(offer_data: dict) -> dict:
+    """Resolve street/house into microdistrict + coordinates via the geocoder API.
+
+    Kept separate from add_extra_params: geocoding must not depend on whether the
+    AI enrichment step ran for this city/action, otherwise most listings are
+    stored without coordinates at all.
+    """
+    if not offer_data.get('street'):
+        return offer_data
+
+    try:
+        street = offer_data.get('street')
+        house_number = offer_data.get('house_number')
+
+        # якщо є номер будинку — додаємо
+        if house_number:
+            street = f"{street} {house_number}"
+
+        map_position = location_api.get_location(
+            city_id=offer_data.get('city_id'),
+            street=street
+        )
+        offer_data['microdistrict_id'] = map_position.get('microdistrict_id')
+        # The source string is deliberately kept: it is the raw material the street
+        # alias dictionary is built from, and OLX has no reliable house number to
+        # fall back on. Only the derived fields below are taken from the geocoder.
+        if map_position.get('lat') and map_position.get('lon'):
+            offer_data['latitude'] = map_position.get('lat')
+            offer_data['longitude'] = map_position.get('lon')
+
+    except Exception as ex:
+        logger_main.warning(f'Error during geocoding - {ex}. ad:{offer_data.get("ad_id")}')
+
+    return offer_data
+
+
 async def add_extra_params(ad, offer_data) -> dict:
     try:
         location_city = ad.get('location', {}).get('city', '')
@@ -434,28 +470,6 @@ async def add_extra_params(ad, offer_data) -> dict:
                         offer_data[field] = ai_value
                         logger_main.warning(
                             f'🟩️️️️️️AI recognize ad_id: {offer_data.get("ad_id")}. Set extra params field {field}: {ai_value}')
-
-        if offer_data.get('street'):
-            street = offer_data.get('street')
-            house_number = offer_data.get('house_number')
-
-            # якщо є номер будинку — додаємо
-            if house_number:
-                street = f"{street} {house_number}"
-
-            map_position = location_api.get_location(
-                city_id=offer_data.get('city_id'),
-                street=street
-            )
-            offer_data['microdistrict_id'] = map_position.get('microdistrict_id')
-            if map_position.get('street'):
-                offer_data['street'] = map_position.get('street')
-            # else:
-            #     offer_data['street'] = None
-            #     offer_data['house_number'] = None
-            if map_position.get('lat') and map_position.get('lon'):
-                offer_data['latitude'] = map_position.get('lat')
-                offer_data['longitude'] = map_position.get('lon')
 
     except Exception as ex:
         logger_main.warning(f'Error during recognize extra params - {ex}. ad:{offer_data.get("ad_id")}')
@@ -972,6 +986,10 @@ async def extract_data(url: str, region_obj: dict, action: str, rc_lookup: dict,
                                                           is_realtor=offer_data['is_realtor']
                                                           )
                             offer_data.update({'call_status': 'new' if call_status else None})
+
+                            # Geocode every listing that carries a street, regardless of
+                            # whether the AI enrichment gate below applies to it.
+                            offer_data = apply_location(offer_data)
 
                             # openAi recognize extra parameter
                             if (

@@ -8,6 +8,7 @@ import json
 import ai_repair
 from vector_service import api_send_task
 import validate_addition_params
+import area_precision
 from bs4 import BeautifulSoup
 from config import headers
 from settings import settings
@@ -375,7 +376,11 @@ async def get_new_data(*, session, obj_data):
                             'house_number': None if ads_info.get('street') is None else ads_info.get('house_number'),
                             'floors': ads_info.get('total_floors'),
                             'floor': ads_info.get('floor'),
-                            'total_area': ads_info.get('total_area'),
+                            'total_area': area_precision.refine_area(
+                                ads_info.get('total_area'),
+                                ads_info.get('title'),
+                                ads_info.get('description'),
+                            ),
                             'kitchen_area': ads_info.get('kitchen_area'),
                             'rooms': ads_info.get('rooms_count'),
                             'updated_at': datetime.now(),

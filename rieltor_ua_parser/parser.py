@@ -9,6 +9,7 @@ import aiohttp
 from proxy_seller_user_api import Api
 from urllib.parse import quote
 import validate_addition_params
+import area_precision
 from settings import settings
 from vector_service import api_send_task
 import ai_repair
@@ -541,10 +542,15 @@ async def get_new_data(*, session, obj_data, rc_lookup):
                                 except Exception as ex_area:
                                     logger_parser.warning(f'Error area - {ex_area}. data - {data}')
                             if 'м²' in data:
-                                try:
-                                    area = float(f'{data.split("/")[0].replace("м²", "").strip()}')
-                                except Exception as ex_area:
-                                    logger_parser.warning(f'Error area - {ex_area}. data - {data}')
+                                # parse_area handles the decimal comma and the
+                                # total/living/kitchen triplet; the card itself
+                                # often rounds, so the description is consulted
+                                # for the exact value.
+                                parsed_area = area_precision.parse_area(data)
+                                if parsed_area is None:
+                                    logger_parser.warning(f'Error area. data - {data}')
+                                else:
+                                    area = area_precision.refine_area(parsed_area, description)
                             if 'кім' in data:
                                 rooms_count = data.split(' ')[0].strip()
                             if 'поверх' in data:
